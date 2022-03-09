@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
 
 .body{
-  width: 100vw;
   height: 100vh;
   margin: 0 auto;
   background-color: #160202;
+  /* overflow-x: hidden; */
 }
 
 /* Navbar stuff */
@@ -27,6 +27,7 @@
 
 .nav-link{
   color: #0affdef8 !important;
+  user-select: none;
 }
 
 
@@ -71,13 +72,34 @@
 
 /* Landing CSS */
 
+
+.intro-box{
+  margin: 5%;
+  height: 100vh;
+}
+
 .head-font{
   font-family: 'IBM Plex Mono', monospace;
   color: #00FF66;
+  user-select: none;
 }
 
-/* Landing typewriter effects */
+.landing-bg{
+  margin-top: 14.5%;
+}
 
-/*  Landing animations end */
+.particleBack{
+  position: absolute;
+  width: fit-content;
+}
 
-/* Landing CSS ends */
+/* Landing CSS ends */  
+
+
+
+/* About Page css */
+.about-bg{
+  background-color: green;
+  height: 100vh;
+}
+/* About Page ends */
