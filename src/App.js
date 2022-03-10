@@ -29,6 +29,15 @@ function App() {
       <section id="contacts">
         <Contacts />
       </section>
+      <footer class="footer">
+      <div class="container-fluid d-flex justify-content-end fixed-bottom">
+        <span>
+          <a href="https://github.com/destrex271" class="text-col" target="_blank">
+            &#169; destrex271@github
+          </a>
+        </span>
+      </div>
+    </footer>
     </div>
   );
 }

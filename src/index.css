@@ -308,7 +308,12 @@ body{
 .tx-lv{
   margin-left: 20px !important;
 }
-
+.text-col{
+  font-family: 'Maven Pro', sans-serif;
+  color:#00ff668e !important;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
 /* -------------------------- */
