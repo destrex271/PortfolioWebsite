@@ -5,8 +5,8 @@ function Landing(){
     const greeting = "I am Akshat Jaimini, a freshman at Thapar Institute Of Engineering And Technology, Patiala.\nI am an aspiring Software Developer and An Open Source Enthusiast.";
     return(
         <React.Fragment>
-            <div className="container-fluid landing-bg">
-                <div className="intro-box">
+            <div className="container-fluid landing-bg justify-content-center align-items-center pt-5">
+                <div className="align-self-center">
                     <div className="display-2 head-font">
                         <Typewriter
                             words={['Welcome To My Portfolio!']}
@@ -29,6 +29,7 @@ function Landing(){
                         />
                     </div> */}
                 </div>
+
             </div>
         </React.Fragment>
     )
