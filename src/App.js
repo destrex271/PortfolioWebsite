@@ -9,15 +9,16 @@ import 'bootstrap/dist/js/bootstrap.bundle'
 function App() {
   return (
     <div className="body pt-3">
-      <Field />
-      <Navbar />
-
-      <section id="landing">
-        <center>
-          <Landing />
-        </center>
-      </section>
-
+      
+      <header>
+        <Navbar />
+        <Field />
+        <section id="landing">
+          <center>
+            <Landing />
+          </center>
+        </section>
+      </header>
       <section id="aboutme">
         <About />
       </section>
