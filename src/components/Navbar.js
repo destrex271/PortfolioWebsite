@@ -2,7 +2,7 @@ import React from "react";
 function Navbar(){
     return(
         <React.Fragment>
-            <nav className="container-fluid d-flex justify-content-around navbox fixed-top">
+            <nav className="container-fluid d-flex justify-content-around navbox fixed-top bg-nav">
                 <ul class="nav container-fluid d-flex justify-content-around">
                     <li class="nav-item hover-underline-animation">
                         <a class="nav-link" href="#aboutme">About Me</a>

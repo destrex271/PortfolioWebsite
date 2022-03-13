@@ -11,10 +11,20 @@ body{
   height: fit-content;
   margin: 0 auto;
   background-color: #000000;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 /* General Effects */
+
+.nolink{
+  color: #00FF66;
+  text-decoration: none;
+}
+
+.nolink:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -64,6 +74,9 @@ body{
   user-select: none;
 }
 
+.bg-nav{
+  background-color: #000000;
+}
 
 
 /* hover Animation underline */
@@ -143,6 +156,8 @@ body{
 /* About Page css */
 #aboutme{
   height: 100vh;
+  margin-top: -10px;
+  padding-top: 100px; 
 }
 .about_bg{
   background-color: #000000;
@@ -200,6 +215,8 @@ body{
 
 #projects{
   height: 100vh;
+  margin-bottom: 10%;
+  padding-top: 100px;
 }
 
 .bg-card{
@@ -264,7 +281,8 @@ body{
 /* Contacts Section goes here  */
 
 #contacts{
-  height: 70vh;
+  height: 90vh;
+  padding-top: 100px;
 }
 
 .size-img{
@@ -315,5 +333,39 @@ body{
   cursor: pointer;
 }
 
+.ht{
+  height: 100px;
+}
 
 /* -------------------------- */
+
+/* Media Queries */
+
+
+@media  screen and (max-width: 1024px) {
+
+  #landing{
+    margin-top:20%;
+    height: 70vh;
+  }
+
+  #projects{
+    margin-top: 50%;
+  }
+
+  #contacts{
+    margin-top: 200%;
+    height: 400%;
+  }
+  
+}
+
+@media  screen and (max-width: 768px) {
+
+  #landing{
+    margin-top:60%;
+    height: 70vh;
+  }  
+}
+
+/* ------------- */

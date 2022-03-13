@@ -21,7 +21,7 @@ function Projects(){
                 <h1 className="display-2 align-self-start about-font hover-underline-animation2">Projects</h1>
             </div>
                 <center>
-                    <div className="container row mx-5 mt-5">
+                    <div className="container row mt-5 shiftax">
                         <div className="col-lg-4 col-md-12 col-sm-12 my-5">
                             <ProjectCard 
                                 imgsrc={webAct}
