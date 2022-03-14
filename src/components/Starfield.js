@@ -37,10 +37,11 @@ function Field(){
                 },
                 particles: {
                 color: {
-                    value: "#00ffa1",
+                    value: "#09dee6",
                 },
                 links: {
-                    color: "#00ffa1",
+                    // color: "#00ffa1",
+                    color: "#09dee6",
                     distance: 150,
                     enable: true,
                     opacity: 0.3,

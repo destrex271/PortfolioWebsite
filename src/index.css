@@ -131,7 +131,8 @@ body{
 
 .head-font{
   font-family: 'IBM Plex Mono', monospace;
-  color: #00FF66;
+  /* color: #00FF66; */
+  color:rgb(1, 255, 242);
   user-select: none;
   font-weight: 400;
 }

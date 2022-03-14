@@ -4,7 +4,7 @@ import Resume from './res1.pdf'
 import MovingText from 'react-moving-text'
 
 function Landing(){
-    const greeting = "Hello there, I am Akshat!";
+    const greeting = "Hello there✌, I am Akshat!🙌";
     return(
         <React.Fragment>
             <div className="container-fluid landing-bg justify-content-center align-items-center pt-5">
