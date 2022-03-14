@@ -368,20 +368,29 @@ body{
 /* Media Queries */
 
 
-@media  screen and (max-width: 1024px) {
+@media  screen and (max-width: 1025px) {
 
   #landing{
-    margin-top:20%;
+    margin-top:10%;
     height: 70vh;
   }
 
+  #aboutme{
+    margin-top: 5%;
+  }
+
+
   #projects{
-    margin-top: 50%;
+    margin-top: 20%;
   }
 
   #contacts{
-    margin-top: 220%;
+    margin-top: 60%;
     height: 400%;
+  }
+
+  .marg-up{
+    margin-top: 20%;
   }
   
 }
@@ -389,9 +398,26 @@ body{
 @media  screen and (max-width: 768px) {
 
   #landing{
-    margin-top:60%;
+    margin-top:10%;
     height: 70vh;
   }  
+
+  #aboutme{
+    margin-top: 60%;
+  }
+
+  #projects{
+    margin-top: 200%;
+  }
+
+  #contacts{
+    margin-top: 280%;
+    height: 400%;
+  }
+
+  .marg-up{
+    margin-top: 20%;
+  }
 }
 
 /* ------------- */

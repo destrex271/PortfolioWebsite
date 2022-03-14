@@ -22,7 +22,7 @@ function Landing(){
                     </div>
                 </div>
                 <div>
-                    <div className="container-fluid row mt-5 pt-5">
+                    <div className="container-fluid row mt-4 pt-5">
                         <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 my-2">
                             <a href={Resume} download><button className="btn btn-outline-warning"><i className="fa fa-download" aria-hidden="true"></i> &nbsp;Download Resume</button></a>
                         </div>
@@ -35,17 +35,19 @@ function Landing(){
                     </div>
                 </div>
                 <div className="container mt-5 pt-3 footerfont">
-                <MovingText
-                    type="bounce"
-                    duration="1200ms"
-                    delay="0s"
-                    direction="normal"
-                    timing="ease"
-                    iteration="infinite"
-                    fillMode="none"
-                >
-                    I’m not a <span style={{color:"#ffffff"}}>great programmer</span>; I’m just a <span style={{color:"#ffffff"}}>good programmer</span> with <span style={{color:"#ffffff"}}>great habits</span>.😉
-                </MovingText>
+                    <div className="marg-up">
+                        <MovingText
+                            type="bounce"
+                            duration="1200ms"
+                            delay="0s"
+                            direction="normal"
+                            timing="ease"
+                            iteration="infinite"
+                            fillMode="none"
+                        >
+                            I’m not a <span style={{color:"#ffffff"}}>great programmer</span>; I’m just a <span style={{color:"#ffffff"}}>good programmer</span> with <span style={{color:"#ffffff"}}>great habits</span>.😉
+                        </MovingText>
+                    </div>
                 </div>
             </div>
         </React.Fragment>
