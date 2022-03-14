@@ -1,6 +1,7 @@
 import React from "react";
 import { Typewriter } from 'react-simple-typewriter'
 import Resume from './res1.pdf'
+import MovingText from 'react-moving-text'
 
 function Landing(){
     const greeting = "Hello there, I am Akshat!";
@@ -34,7 +35,17 @@ function Landing(){
                     </div>
                 </div>
                 <div className="container mt-5 pt-3 footerfont">
+                <MovingText
+                    type="bounce"
+                    duration="1200ms"
+                    delay="0s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="infinite"
+                    fillMode="none"
+                >
                     I’m not a <span style={{color:"#ffffff"}}>great programmer</span>; I’m just a <span style={{color:"#ffffff"}}>good programmer</span> with <span style={{color:"#ffffff"}}>great habits</span>.😉
+                </MovingText>
                 </div>
             </div>
         </React.Fragment>

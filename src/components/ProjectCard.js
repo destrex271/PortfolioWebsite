@@ -10,7 +10,7 @@ function ProjectCard(props){
                     <h5 className="card-title">{props.title}</h5>
                     <p className="card-text">{props.description}</p>
                     <a href={props.link} target="_blank" >
-                        <button class="btn btn-outline-success w-50">Read more</button>
+                        <button class="btn btn-outline-info w-50">Read more</button>
                     </a>
                 </div>
             </div>

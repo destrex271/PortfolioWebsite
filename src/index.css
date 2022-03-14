@@ -176,7 +176,7 @@ body{
   font-family: 'IBM Plex Mono', monospace;
   font-size: 120%;
   text-align: left;
-  color: #11c077;
+  color: #1be9ab;
 }
 
 .content-box{
@@ -220,7 +220,8 @@ body{
 }
 
 .bg-card{
-  background-color: #0a130c !important;
+  /* background-color: #44023f !important; */
+  background-color: #0a1d46 !important;
 }
 
 .zoom{
@@ -233,7 +234,7 @@ body{
 }
 
 .card-title{
-  color: #00FF66;
+  color: #b4ecf0;
   font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -255,21 +256,24 @@ body{
   height: 0.1px;
   bottom: 0;
   left: 0;
-  background-color: #08c475;
+  background-color: #1f6eb8;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
-  text-shadow: 0 0 5px #01f0b4;
+  text-shadow: 0 0 5px #1f6eb8;
 }
 
 .hover-underline-animation3:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
-  
 }
 
 .card-text{
   text-align: left;
-  color: #08c475;
+  color: #e0eee5;
+}
+
+.card-text:hover{
+  text-shadow: 0 0 5px #01f0b4;
 }
 
 .fix{
@@ -282,6 +286,10 @@ body{
 
 .tl2{
   text-align: right;
+}
+
+.ts{
+  user-select: none;
 }
 
 /* Projects Page done */
@@ -315,20 +323,20 @@ body{
   transition: transform 0.25s ease-out;
 }
 
-.size-img-ln:hover{
+.size-img-ln:hover{ 
   transform: scale(1.1);
 }
 
 .tx{
   font-family: 'Maven Pro', sans-serif;
-  color:#00FF66;
+  color:#bbffea;
   text-align: center;
   text-decoration: none;
 }
 
 .tx:hover{
   cursor:pointer;
-  color:#63fca0;
+  color:#f8f8f8;
 }
 
 .tx-lv{
@@ -350,6 +358,9 @@ body{
   align-items: center;
 }
 
+.glow{
+  text-shadow: 0px 1px #c6e9f7;
+}
 
 /* -------------------------- */
 
