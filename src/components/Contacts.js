@@ -7,7 +7,7 @@ function Contacts(){
     return(
         <React.Fragment>
             <div className='about_bg container-fluid d-flex justify-content-center'>
-                <h1 className="display-2 align-self-start about-font hover-underline-animation2">Contact Me</h1>
+                <h1 className="display-2 align-self-start about-font hover-underline-animation2"><i className="fa fa-address-book"></i>&nbsp;Contact Me</h1>
             </div>
             <center>
                 <div className="row m-5 justify-content-center">

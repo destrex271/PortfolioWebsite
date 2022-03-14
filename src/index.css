@@ -120,7 +120,7 @@ body{
 /* Landing CSS */
 
 #landing{
-  height: 100vh;
+  height: 90vh;
   background-color: #000000;
 }
 
@@ -156,15 +156,15 @@ body{
 /* About Page css */
 #aboutme{
   height: 100vh;
-  margin-top: -10px;
   padding-top: 100px; 
+  margin-top: -15%;
 }
 .about_bg{
   background-color: #000000;
 }
 .about-font{
   font-family: 'IBM Plex Mono', monospace;
-  color: #00FF66;
+  color: rgb(22, 25, 155);
   user-select: none;
 }
 
@@ -175,18 +175,18 @@ body{
 .content-font-about{
   font-family: 'IBM Plex Mono', monospace;
   font-size: 120%;
-  text-align: center;
+  text-align: left;
   color: #11c077;
 }
 
 .content-box{
-  width: 80%;
+  width: 400%;
 }
 
 .hover-underline-animation2 {
   display: inline-block;
   position: relative;
-  color: rgb(0, 255, 234);
+  color: rgb(22, 25, 155);
 }
 
 .hover-underline-animation2:after {
@@ -276,6 +276,14 @@ body{
   height: 150px !important;
 }
 
+.tl{
+  text-align: left;
+}
+
+.tl2{
+  text-align: right;
+}
+
 /* Projects Page done */
 
 /* Contacts Section goes here  */
@@ -337,6 +345,12 @@ body{
   height: 100px;
 }
 
+.cent{
+  text-align: center;
+  align-items: center;
+}
+
+
 /* -------------------------- */
 
 /* Media Queries */
@@ -354,7 +368,7 @@ body{
   }
 
   #contacts{
-    margin-top: 230%;
+    margin-top: 220%;
     height: 400%;
   }
   
@@ -369,3 +383,10 @@ body{
 }
 
 /* ------------- */
+
+.footerfont{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 150%;
+  text-align: center;
+  color:#18bbe4;
+}

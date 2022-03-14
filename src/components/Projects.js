@@ -18,7 +18,7 @@ function Projects(){
     return(
         <React.Fragment>
             <div className='about_bg container-fluid d-flex justify-content-center'>
-                <h1 className="display-2 align-self-start about-font hover-underline-animation2">Projects</h1>
+                <h1 className="display-2 align-self-start about-font hover-underline-animation2">Projects&nbsp;<i className="fa fa-code"></i></h1>
             </div>
                 <center>
                     <div className="container row mt-5 shiftax">
