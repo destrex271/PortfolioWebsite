@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
         axios.defaults.withCredentials = true;
         axios.get('https://arcane-journey-55676.herokuapp.com/').then(res => {console.log(res.cookie)})
-        console.log(document.cookie.split(';')[1].split('=')[1])
+        console.log()
       }
   , []);
 
