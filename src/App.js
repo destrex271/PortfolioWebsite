@@ -9,6 +9,7 @@ import 'bootstrap/dist/js/bootstrap.bundle'
 import Projects from './components/Projects';
 import axios from 'axios'
 import { useEffect } from 'react';
+import ScrollToTop from "react-scroll-to-top";
 
 function App() {
 
@@ -21,15 +22,16 @@ function App() {
 
   return (
     <div className="body pt-3">
-      <header>
+      <ScrollToTop smooth color="blue" />
+      <div class="landing-bg">
         <Navbar />
-        <Field />
-        <section id="landing">
+        {/* <Field /> */}
+        <section id="landing" class="landing-bg">
           <center>
             <Landing />
           </center>
         </section>
-      </header>
+      </div>
       <section id="aboutme">
         <About />
       </section>
