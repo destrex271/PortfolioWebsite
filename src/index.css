@@ -42,12 +42,14 @@ body{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #00FF66;
+  /* background: #00FF66; */
+  background: #81D7D3;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #00FF66;
+  /* background: #00FF66; */
+  background: #81D7D3;
 }
 
 
