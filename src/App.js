@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import Navbar from './components/Navbar'
 import Landing from './components/Landing';
-import Field from './components/Starfield';
 import About from './components/About';
 import Contacts from './components/Contacts';
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -10,6 +9,7 @@ import Projects from './components/Projects';
 import axios from 'axios'
 import { useEffect } from 'react';
 import ScrollToTop from "react-scroll-to-top";
+import Gola from './components/Gola';
 
 function App() {
 
@@ -25,12 +25,16 @@ function App() {
       <ScrollToTop smooth color="blue" />
       <div class="landing-bg">
         <Navbar />
+        
         {/* <Field /> */}
         <section id="landing" class="landing-bg">
-          <center>
+          {/* <center> */}
+            <Gola />
             <Landing />
-          </center>
+          {/* </center> */}
+          
         </section>
+        
       </div>
       <section id="aboutme">
         <About />
