@@ -5,7 +5,7 @@
 body{
   /* background-color: #000000; */
   overflow-x: hidden;
-  background-image: radial-gradient(circle, #000000, #01091f, #020212, #000000);
+  background-image: radial-gradient(circle, #000000, #010715, #020212, #000000);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
