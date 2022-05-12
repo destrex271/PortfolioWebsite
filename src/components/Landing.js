@@ -4,7 +4,7 @@ import Resume from './res1.pdf'
 import MovingText from 'react-moving-text'
 
 function Landing(){
-    const greeting = "Hello there✌ ,I am Akshat!";
+    const greeting = "Hello there, I am Akshat!";
     return(
         <React.Fragment>
             <div className="container landing-bg justify-content-center align-items-center pt-5">
@@ -36,7 +36,7 @@ function Landing(){
                                 iteration="infinite"
                                 fillMode="none"
                             >
-                                I’m not a <span style={{color:"#ffffff"}}>great programmer</span>; I’m just a <span style={{color:"#ffffff"}}>good programmer</span> with <span style={{color:"#ffffff"}}>great habits</span>.😉
+                                I’m not a <span style={{color:"#ffffff"}}>great programmer</span>; I’m just a <span style={{color:"#ffffff"}}>good programmer</span> with <span style={{color:"#ffffff"}}>great habits</span>.
                             </MovingText>
                         </div>
                     </div>
