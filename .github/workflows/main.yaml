@@ -1,0 +1,24 @@
+name: Portfolio Build tests
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.X, 18.X]
+
+    steps:
+      - run: yarn
+      - run: yarn build
+      - run: yarn run
+      - run: echo 'Validation Done' && exit 0
