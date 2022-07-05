@@ -19,6 +19,6 @@ jobs:
 
     steps:
       - run: yarn
-      - run: yarn build
+      - run: npm run build --if-exists
       - run: yarn run
       - run: echo 'Validation Done' && exit 0
