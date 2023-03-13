@@ -33,7 +33,7 @@ function Landing(){
                                 delay="0s"
                                 direction="normal"
                                 timing="ease"
-                                iteration="infinite"
+                                iteration="1"
                                 fillMode="none"
                             >
                                 I’m not a <span style={{color:"#ffffff"}}>great programmer</span>; I’m just a <span style={{color:"#ffffff"}}>good programmer</span> with <span style={{color:"#ffffff"}}>great habits</span>.
